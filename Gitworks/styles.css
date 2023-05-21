@@ -1,0 +1,10 @@
+.weather-app {
+  margin-top: 20px;
+  max-width: 680px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+#search-form {
+  margin-top: 5px;
+  margin-left: 4px;
+}
