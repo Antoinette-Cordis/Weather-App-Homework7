@@ -24,6 +24,7 @@
                 type="search"
                 placeholder="Type a city"
                 class="form-control"
+                id="city-input"
                 autocomplete="off"
               />
             </div>
@@ -36,11 +37,10 @@
             </div>
           </div>
         </form>
-        <h1>Nigeria</h1>
+        <h1 id="city"></h1>
         <ul>
-          <li>Last Updated at</li>
-          <li>Sunday 16:45</li>
-          <li>clear</li>
+          <li>Last Updated at <span id="date"></span></li>
+          <li id="description">clear</li>
         </ul>
         <div class="row">
           <div class="col-6">
@@ -48,18 +48,18 @@
               src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
               alt="cloudy"
             />
-            <strong>31</strong>
+            <strong id="temperature">31</strong>
             <span>°C|°F</span>
           </div>
           <div class="col-6">
             <ul>
-              <li>Precipitation</li>
               <li>Humidity <span id="humidity"></span></li>
               <li>Wind <span id="wind"></span></li>
             </ul>
           </div>
         </div>
       </div>
+      <p>Coded by Antoinette Cordis Amauba</p>
     </div>
     <script src="Gitworks/index.js"></script>
   </body>
