@@ -32,3 +32,6 @@ p {
   color: black;
   cursor: default;
 }
+a {
+  text-decoration: none;
+}
